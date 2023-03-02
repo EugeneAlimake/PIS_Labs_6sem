@@ -1,0 +1,10 @@
+C:\Users\thesi\Desktop\6\ПИС\Лабки\lab1\Win\bin\Debug\Win.exe.config
+C:\Users\thesi\Desktop\6\ПИС\Лабки\lab1\Win\bin\Debug\Win.exe
+C:\Users\thesi\Desktop\6\ПИС\Лабки\lab1\Win\bin\Debug\Win.pdb
+C:\Users\thesi\Desktop\6\ПИС\Лабки\lab1\Win\obj\Debug\Win.csproj.AssemblyReference.cache
+C:\Users\thesi\Desktop\6\ПИС\Лабки\lab1\Win\obj\Debug\Win.Form1.resources
+C:\Users\thesi\Desktop\6\ПИС\Лабки\lab1\Win\obj\Debug\Win.Properties.Resources.resources
+C:\Users\thesi\Desktop\6\ПИС\Лабки\lab1\Win\obj\Debug\Win.csproj.GenerateResource.cache
+C:\Users\thesi\Desktop\6\ПИС\Лабки\lab1\Win\obj\Debug\Win.csproj.CoreCompileInputs.cache
+C:\Users\thesi\Desktop\6\ПИС\Лабки\lab1\Win\obj\Debug\Win.exe
+C:\Users\thesi\Desktop\6\ПИС\Лабки\lab1\Win\obj\Debug\Win.pdb
