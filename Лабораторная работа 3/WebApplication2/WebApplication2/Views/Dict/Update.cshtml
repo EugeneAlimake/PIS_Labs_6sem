@@ -1,0 +1,32 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Update</title>
+</head>
+<body>
+    <div>
+        <form method="post" action="~/Dict/UpdateSave">
+            <label>Id</label>
+            <br />
+            <input type="number" min="1" step="1" name="id" id="id" />
+            <br />
+            <label>New Surname</label>
+            <br />
+            <input type="text" name="surname" id="surname" />
+            <br />
+            <label>New Phone Number</label>
+            <br />
+            <input type="tel" name="phoneNumber" id="phoneNumber" placeholder="+375xxxxxxxxx" />
+            <br />
+            <input type="submit" value="Submit" />
+        </form>
+    </div>
+</body>
+</html>
