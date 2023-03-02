@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <h1> Task 1b</h1>
+
+    <div>
+        <button id="bstart" onclick="start()">Start</button>
+        <button id="bstop" onclick="end()">Stop</button>
+    </div>
+
+    <div id="result">
+
+    </div>
+
+    <script>let ws = null;
+        let bstart = document.getElementById('bstart');
+        let bstop = document.getElementById('bstop');
+        bstop.disabled = true;
+
+        function start() {
+            if (ws == null) {
+                ws = new WebSocket("wss://localhost:44325/NEV/websockets");//защищенный
+
+                ws.onmessage = (evt) => { result.innerHTML += `<p>${evt.data}</p>` };// прослушивание входящих данных
+
+                bstart.disabled = true;
+                bstop.disabled = false;
+            }
+        }
+
+        function end() {
+            ws.close(3001, 'stop');
+            ws = null;
+
+            bstart.disabled = false;
+            bstop.disabled = true;
+        }</script>
+
+</body>
+</html>
